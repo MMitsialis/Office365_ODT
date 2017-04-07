@@ -6,7 +6,7 @@ Synopsis:
 	OfficeMgmtCOM disabled 
  -->
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Deferred" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
+  <Add OfficeClientEdition="32" Channel="Current" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
