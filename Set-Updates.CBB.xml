@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Configuration>
-  <Updates Enabled="TRUE" Channel="Deferred" Deadline="04/5/2017, 00:00"/>
+  <Updates Enabled="TRUE" Channel="Current" />
 </Configuration>
 <!-- <Configuration>
 <Updates Enabled="TRUE" Channel="Deferred" UpdatePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\" Deadline="04/5/2017, 00:00"/>

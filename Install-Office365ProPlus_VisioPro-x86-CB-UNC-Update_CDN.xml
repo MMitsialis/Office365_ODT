@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- 
+Synopsis: 
+	Install Office 365 and Visio Professionnal 32-bit from local UNC repository , deferred channel
+	Updates installed from CDN current channel
+	OfficeMgmtCOM disabled 
+ -->
+<Configuration>
+  <Add OfficeClientEdition="32" Channel="Deferred" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us"/>
+    </Product>
+    <Product ID="VisioProXVolume">
+      <Language ID="en-us"/>
+    </Product>
+  </Add>
+  <Display Level="Full" AcceptEULA="TRUE"/>
+  <Property Name="AUTOACTIVATE" Value="1"/>
+  <Updates Enabled="TRUE" Channel="Current"/>
+</Configuration>
