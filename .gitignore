@@ -1,3 +1,4 @@
-/Office/Data/*
-/Office/Holding/*
-/Office/Logs/*
+setup.exe
+Office/Logs
+Office/Data
+Office/Holding
