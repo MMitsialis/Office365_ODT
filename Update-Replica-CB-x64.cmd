@@ -1,1 +1,1 @@
-Setup.exe /Download %cd%\Download.office365ProPlus.CBB.x64.xml
+Setup.exe /Download %cd%\Download.office365ProPlus.CB.x64.xml
