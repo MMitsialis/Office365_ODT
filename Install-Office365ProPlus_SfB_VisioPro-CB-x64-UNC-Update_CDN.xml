@@ -1,28 +1,30 @@
 <?xml version="1.0"?>
-
 <!-- 
 Synopsis: 
 	Install : 
 		Office 365 ProPlus
+		Skype for Business
 		Visio Professionnal 
-	Architecture: 32-bit
+	Architecture: 64-bit
 	Install Source: UNC Share 
-	Channel: Deferred Branch
-	Updates: Deferred
-	Updates Source: UNC Share
-	OfficeMgmtCOM : Enabled 
+	Channel: Current Branch
+	Updates: Current 
+	Updates Source: CDN
+	OfficeMgmtCOM : Disabled 
  -->
-
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Deferred" OfficeMgmtCOM="TRUE" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
+  <Add OfficeClientEdition="64" Channel="Current" SourcePath="\\Raza\CDN\Office365\">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
+	<Product ID="SkypeforBusinessRetail">
+            <Language ID="en-us"/>
+	</Product>
     <Product ID="VisioProXVolume">
       <Language ID="en-us"/>
     </Product>
   </Add>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Property Name="AUTOACTIVATE" Value="1"/>
-  <Updates Enabled="TRUE" Channel="Deferred" UpdatePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\"/>
+  <Updates Enabled="TRUE" Channel="Current"/>
 </Configuration>

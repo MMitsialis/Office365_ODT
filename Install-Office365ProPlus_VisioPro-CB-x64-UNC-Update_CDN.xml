@@ -1,20 +1,18 @@
 <?xml version="1.0"?>
-
 <!-- 
 Synopsis: 
 	Install : 
-		Office 365 ProPlus
-		Visio Professionnal 
+		Office 365 ProPlus 
+		Visio Professional 
 	Architecture: 64-bit
 	Install Source: UNC Share 
 	Channel: Current Branch
 	Updates: Current 
-	Updates Source: UNC
-	OfficeMgmtCOM : Enabled 
+	Updates Source: CDN
+	OfficeMgmtCOM : Disabled 
  -->
- 
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Current" OfficeMgmtCOM="TRUE" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
+  <Add OfficeClientEdition="64" Channel="Current" SourcePath="\\Raza\CDN\Office365\">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
@@ -24,5 +22,5 @@ Synopsis:
   </Add>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Property Name="AUTOACTIVATE" Value="1"/>
-  <Updates Enabled="TRUE" Channel="Current" UpdatePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\"/>
+  <Updates Enabled="TRUE" Channel="Current"/>
 </Configuration>

@@ -1,12 +1,18 @@
 <?xml version="1.0"?>
 <!-- 
 Synopsis: 
-	Install Office 365 and Visio Professionnal 32-bit from local UNC repository , deferred channel
-	Updates installed from CDN current channel
-	OfficeMgmtCOM disabled 
+	Install : 
+		Office 365 ProPlus 
+		Visio Professional 
+	Architecture: 32-bit
+	Install Source: UNC Share 
+	Channel: Current Branch
+	Updates: Current 
+	Updates Source: CDN
+	OfficeMgmtCOM : Disabled 
  -->
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Current" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
+  <Add OfficeClientEdition="32" Channel="Current" SourcePath="\\Raza\CDN\Office365\">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>

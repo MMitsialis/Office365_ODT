@@ -1,4 +1,20 @@
 <?xml version="1.0"?>
+
+<!-- 
+Synopsis: 
+	Install : 
+		Office 365 ProPlus
+		Visio Professionnal 
+	Architecture: 32-bit
+	Install Source: UNC Share 
+	Download: UNC Share
+	Channel: Deferred Branch
+	Updates: Deferred
+	Updates Source: UNC Share
+	OfficeMgmtCOM : Disabled 
+ -->
+
+
 <Configuration>
     <Add OfficeClientEdition="32" Channel="Deferred" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\" DownloadPath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\" OfficeMgmtCOM="TRUE">
         <Product ID="O365ProPlusRetail">

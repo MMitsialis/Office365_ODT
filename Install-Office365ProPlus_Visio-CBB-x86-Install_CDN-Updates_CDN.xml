@@ -1,4 +1,18 @@
 <?xml version="1.0"?>
+
+<!-- 
+Synopsis: 
+	Install : 
+		Office 365 ProPlus
+		Visio Professionnal 
+	Architecture: 32-bit
+	Install Source: CDN 
+	Channel: Deferred Branch
+	Updates: Deferred
+	Updates Source: CDN
+	OfficeMgmtCOM : Disabled 
+ -->
+
 <Configuration>
     <Add OfficeClientEdition="32" Channel="Deferred" >
         <Product ID="O365ProPlusRetail">
