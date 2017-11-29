@@ -6,7 +6,7 @@ Updates installed from CDN deferred channel
 OfficeMgmtCOM disabled 
 -->
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Deferred">
+  <Add OfficeClientEdition="32" Channel="Broad">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
@@ -14,7 +14,7 @@ OfficeMgmtCOM disabled
       <Language ID="en-us"/>
     </Product>
   </Add>
-  <Updates Enabled="TRUE" Channel="Deferred"/>
+  <Updates Enabled="TRUE" Channel="Broad"/>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Logging Level="Standard"/>
   <Property Name="AUTOACTIVATE" Value="0"/>

@@ -1,6 +1,6 @@
-Call Update-Replica-CBB-x64.cmd
-Call Update-Replica-CBB-x86.cmd
-Call Update-Replica-FRCBB-x64.cmd
-Call Update-Replica-FRCBB-x86.cmd
-Call Update-Replica-CB-x64.cmd
-Call Update-Replica-CB-x86.cmd
+Call Update-Replica-Broad-x64.cmd
+Call Update-Replica-Broad-x86.cmd
+Call Update-Replica-Targeted-x64.cmd
+Call Update-Replica-Targeted-x86.cmd
+Call Update-Replica-Monthly-x64.cmd
+Call Update-Replica-Monthly-x86.cmd

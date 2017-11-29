@@ -14,7 +14,7 @@ Synopsis:
  -->
 
 <Configuration>
-  <Add OfficeClientEdition="64" Channel="Current">
+  <Add OfficeClientEdition="64" Channel="Monthly">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
@@ -22,7 +22,7 @@ Synopsis:
       <Language ID="en-us"/>
     </Product>
   </Add>
-  <Updates Enabled="TRUE" Channel="Current"/>
+  <Updates Enabled="TRUE" Channel="Monthly"/>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Logging Level="Standard"/>
   <Property Name="AUTOACTIVATE" Value="0"/>

@@ -12,12 +12,12 @@ Synopsis:
  -->
  
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Deferred" OfficeMgmtCOM="TRUE" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
+  <Add OfficeClientEdition="32" Channel="Broad" OfficeMgmtCOM="TRUE" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
   </Add>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Property Name="AUTOACTIVATE" Value="1"/>
-  <Updates Enabled="TRUE" Channel="Deferred" UpdatePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\"/>
+  <Updates Enabled="TRUE" Channel="Broad" UpdatePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\"/>
 </Configuration>

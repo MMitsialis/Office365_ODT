@@ -12,7 +12,7 @@ Synopsis:
 	OfficeMgmtCOM : Disabled 
  -->
 <Configuration>
-  <Add OfficeClientEdition="64" Channel="Current" SourcePath="\\Raza\CDN\Office365\">
+  <Add OfficeClientEdition="64" Channel="Monthly" SourcePath="\\Raza\CDN\Office365\">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
@@ -22,5 +22,5 @@ Synopsis:
   </Add>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Property Name="AUTOACTIVATE" Value="1"/>
-  <Updates Enabled="TRUE" Channel="Current"/>
+  <Updates Enabled="TRUE" Channel="Monthly"/>
 </Configuration>

@@ -2,8 +2,9 @@
 <!-- 
 Synopsis: 
 	Install : 
-		Office 365 ProPlus 
-		Visio Professional 
+		Office 365 ProPlus
+		Skype for Business
+		Visio Professionnal 
 	Architecture: 32-bit
 	Install Source: UNC Share 
 	Channel: Current Branch
@@ -11,16 +12,19 @@ Synopsis:
 	Updates Source: CDN
 	OfficeMgmtCOM : Disabled 
  -->
-<Configuration>
-  <Add OfficeClientEdition="32" Channel="Current" SourcePath="\\Raza\CDN\Office365\">
+ <Configuration>
+  <Add OfficeClientEdition="32" Channel="Monthly" SourcePath="\\Raza\CDN\Office365\">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
+	<Product ID="SkypeforBusinessRetail">
+            <Language ID="en-us"/>
+	</Product>
     <Product ID="VisioProXVolume">
       <Language ID="en-us"/>
     </Product>
   </Add>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Property Name="AUTOACTIVATE" Value="1"/>
-  <Updates Enabled="TRUE" Channel="Current"/>
+  <Updates Enabled="TRUE" Channel="Monthly"/>
 </Configuration>

@@ -1,5 +1,5 @@
 <Configuration>
-    <Add OfficeClientEdition="64" Channel="FirstReleaseDeferred">
+    <Add OfficeClientEdition="32" Channel="Targeted">
         <Product ID="O365ProPlusRetail">
             <Language ID="en-us"/>
         </Product>
@@ -21,9 +21,9 @@
 			Visio Standard 2016 = VisioStdXVolume
 			Visio Professional 2016 = VisioProXVolume
 			Project Standard 2016 = ProjectStdXVolume
-		Project Professional 2016 = ProjectProXVolume -->
+			Project Professional 2016 = ProjectProXVolume -->
     </Add>
-    <Updates Enabled="TRUE" Channel="FirstReleaseDeferred"/>
+    <Updates Enabled="TRUE" Channel="Targeted"/>
     <Display Level="Full" AcceptEULA="TRUE"/>
     <!--  <Property Name="AUTOACTIVATE" Value="1" />  -->
     <!-- <Logging Level="Standard" Path="%temp%" /> -->

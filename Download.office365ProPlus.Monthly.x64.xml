@@ -12,7 +12,7 @@
      and Visio Pro for Office 365 directly from the Office CDN using the Current Channel
      settings  -->
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Deferred" OfficeMgmtCOM="TRUE" Version="16.0.6965.2140">
+  <Add OfficeClientEdition="64" Channel="Monthly" OfficeMgmtCOM="TRUE">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
@@ -34,9 +34,9 @@
 			Visio Standard 2016 = VisioStdXVolume
 			Visio Professional 2016 = VisioProXVolume
 			Project Standard 2016 = ProjectStdXVolume
-			Project Professional 2016 = ProjectProXVolume -->
+		Project Professional 2016 = ProjectProXVolume -->
   </Add>
-  <Updates Enabled="TRUE" Channel="Deferred"/>
+  <Updates Enabled="TRUE" Channel="Monthly"/>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <!--  <Property Name="AUTOACTIVATE" Value="1" />  -->
   <!-- <Logging Level="Standard" Path="%temp%" /> -->

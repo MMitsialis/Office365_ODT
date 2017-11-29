@@ -6,15 +6,17 @@ Synopsis:
 		Office 365 ProPlus
 		Visio Professionnal 
 	Architecture: 32-bit
-	Install Source: CDN 
+	Install Source: UNC Share 
+	Download: UNC Share
 	Channel: Deferred Branch
 	Updates: Deferred
-	Updates Source: CDN
+	Updates Source: UNC Share
 	OfficeMgmtCOM : Disabled 
  -->
 
+
 <Configuration>
-    <Add OfficeClientEdition="32" Channel="Deferred" >
+    <Add OfficeClientEdition="32" Channel="Broad" SourcePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\" DownloadPath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\" OfficeMgmtCOM="TRUE">
         <Product ID="O365ProPlusRetail">
             <Language ID="en-us"/>
         </Product>
@@ -22,14 +24,8 @@ Synopsis:
             <Language ID="en-us"/>
         </Product>
     </Add>
-    <Updates Enabled="TRUE" Channel="Deferred"  />
+    <Updates Enabled="TRUE" Channel="Broad" UpdatePath="\\vboxsrv\g_drive\Downloads\Downloads-Software-Microsoft\Office365\" />
     <Display Level="Full" AcceptEULA="TRUE"/>
     <Logging Level="Standard"/>
-    <Property Name="AUTOACTIVATE" Value="0"/>
-    <Property Name="FORCEAPPSHUTDOWN" Value="FALSE"/>
-    <Property Name="SharedComputerLicensing" Value="0"/>
-    <Property Name="PinIconsToTaskbar" Value="FALSE"/>
 </Configuration>
-
-                                        
-
+  
