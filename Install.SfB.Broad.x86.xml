@@ -2,7 +2,7 @@
 <!-- 
 Synopsis: 
 	Install : 
-		Office 365 ProPlus
+		Skype for Business
 	Architecture: 32-bit
 	Install Source: 
 	Channel: Deferred Branch
@@ -12,10 +12,10 @@ Synopsis:
  -->
  
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Broad" OfficeMgmtCOM="TRUE" >
-    <Product ID="O365ProPlusRetail">
-      <Language ID="en-us"/>
-    </Product>
+  <Add OfficeClientEdition="32" Channel="Broad"  >
+	<Product ID="SkypeforBusinessRetail">
+            <Language ID="en-us"/>
+	</Product>
   </Add>
   <Display Level="Full" AcceptEULA="TRUE"/>
   <Property Name="AUTOACTIVATE" Value="1"/>

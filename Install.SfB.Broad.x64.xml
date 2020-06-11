@@ -2,19 +2,19 @@
 <!-- 
 Synopsis: 
 	Install : 
-		Office 365 ProPlus
-	Architecture: 32-bit
+		Skype for Business
+	Architecture: 64-bit
 	Install Source: 
 	Channel: Deferred Branch
 	Updates: Deferred 
-	Updates Source: UNC Share
-	OfficeMgmtCOM : Enabled 
+	Updates Source: 
+	OfficeMgmtCOM : Disabled 
  -->
  
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Broad" OfficeMgmtCOM="TRUE" >
-    <Product ID="O365ProPlusRetail">
-      <Language ID="en-us"/>
+  <Add OfficeClientEdition="64" Channel="Broad" >
+	<Product ID="SkypeforBusinessRetail">
+		<Language ID="en-us"/>
     </Product>
   </Add>
   <Display Level="Full" AcceptEULA="TRUE"/>

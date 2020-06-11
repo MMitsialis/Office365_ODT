@@ -1,18 +1,18 @@
-<?xml version="1.0"?>
+	<?xml version="1.0"?>
 <!-- 
 Synopsis: 
 	Install : 
 		Office 365 ProPlus
-	Architecture: 32-bit
+	Architecture: 64-bit
 	Install Source: 
 	Channel: Deferred Branch
 	Updates: Deferred 
-	Updates Source: UNC Share
+	Updates Source: 
 	OfficeMgmtCOM : Enabled 
  -->
  
 <Configuration>
-  <Add OfficeClientEdition="32" Channel="Broad" OfficeMgmtCOM="TRUE" >
+  <Add OfficeClientEdition="64" Channel="Broad" OfficeMgmtCOM="TRUE" 
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us"/>
     </Product>
