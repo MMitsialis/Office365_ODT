@@ -1,1 +1,1 @@
-Setup.exe /Download %cd%\Download.office365ProPlus.MonthlyEnterprise.x86.xml
+Setup.exe /Download %cd%\Download.Office365.MonthlyEnterprise.x86.xml
