@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+Synopsis:
+	Install :
+		Skype for Business
+	Architecture: 32-bit
+	Install Source:
+	Channel: Deferred Branch
+	Updates: Deferred
+	Updates Source: UNC Share
+	OfficeMgmtCOM : Enabled
+ -->
+
+<Configuration>
+  <Add OfficeClientEdition="32" Channel="SemiAnnual"  >
+	<Product ID="SkypeforBusinessRetail">
+            <Language ID="en-us"/>
+	</Product>
+  </Add>
+  <Display Level="Full" AcceptEULA="TRUE"/>
+  <Property Name="AUTOACTIVATE" Value="1"/>
+  <Updates Enabled="TRUE" Channel="SemiAnnual" />
+</Configuration>

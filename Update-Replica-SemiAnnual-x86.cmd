@@ -1,0 +1,1 @@
+Setup.exe /Download %cd%\Download.office365ProPlus.SemiAnnual.x86.xml

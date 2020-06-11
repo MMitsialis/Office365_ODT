@@ -1,0 +1,1 @@
+Setup.exe /Download %cd%\Download.office365ProPlus.Current.x86.xml

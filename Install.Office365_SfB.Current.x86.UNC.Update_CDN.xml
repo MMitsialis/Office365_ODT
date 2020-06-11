@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+Synopsis:
+	Install :
+		Skype for Business
+	Architecture: 32-bit
+	Install Source: UNC Share
+	Channel: Current Branch
+	Updates: Current
+	Updates Source: CDN
+	OfficeMgmtCOM : Disabled
+ -->
+<Configuration>
+  <Add OfficeClientEdition="32" Channel="Current" SourcePath="\\Raza\CDN\Office365\">
+    <Product ID="SkypeforBusinessRetail">
+              <Language ID="en-us"/>
+    </Product>
+  </Add>
+  <Display Level="Full" AcceptEULA="TRUE"/>
+  <Property Name="AUTOACTIVATE" Value="1"/>
+  <Updates Enabled="TRUE" Channel="Current"/>
+</Configuration>
