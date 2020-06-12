@@ -11,7 +11,7 @@ This is a very basic set of configuration, use is as-is with no warannties. YMMV
 
 The files follow the naming convention below
 
-Verb-<Product>_<Channel>_<Architecture>[<InstallMediaSource>_<UpdateMediaSource>].<Extension>
+Verb-`<Product>`_`<Channel>`_`<Architecture>`[`<InstallMediaSource>`_`<UpdateMediaSource>`].`<Extension>`
 
 <Verb>:
   - Change -- Change an exisiting instance
@@ -26,7 +26,7 @@ Verb-<Product>_<Channel>_<Architecture>[<InstallMediaSource>_<UpdateMediaSource>
 	- Office365_VisioPro (Office365 with Visio Professional)
 
 <Channel>:
-	Channels is derived from the Micrrosoft365 Apps Channels documents here: https://docs.microsoft.com/en-us/DeployOffice/update-channels-changes
+	Channels is derived from the [Microsoft365 Apps Channels Update Document](https://docs.microsoft.com/en-us/DeployOffice/update-channels-changes)
 
 	- BetaChannel
 	- CurrentPreview
