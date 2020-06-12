@@ -11,21 +11,21 @@ This is a very basic set of configuration, use is as-is with no warannties. YMMV
 
 The files follow the naming convention below
 
-Verb-`<Product>`_`<Channel>`_`<Architecture>`[`<InstallMediaSource>`_`<UpdateMediaSource>`].`<Extension>`
+`<Verb>`-`<Product>`-`<Channel>`-`<Architecture>`[-`<InstallMediaSource>`_`<UpdateMediaSource>`].`<Extension>`
 
-<Verb>:
+`<Verb>`:
   - Change -- Change an exisiting instance
   - Download -- Download an offline installation media packages
   - Install -- Install an instance
   - Update -- Refresh offline installation medai packages
 
-<Product>:
+`<Product>`:
 	- Office365
 	- Office365_SfB   (Office365 with Skype4Business)
 	- Office365_SfB_VisioPro (Office365 with Visio Professional and Skype4Business)
 	- Office365_VisioPro (Office365 with Visio Professional)
 
-<Channel>:
+`<Channel>`:
 	Channels is derived from the [Microsoft365 Apps Channels Update Document](https://docs.microsoft.com/en-us/DeployOffice/update-channels-changes)
 
 	- BetaChannel
@@ -35,11 +35,11 @@ Verb-`<Product>`_`<Channel>`_`<Architecture>`[`<InstallMediaSource>`_`<UpdateMed
 	- SemiAnnualPreview
 	- SemiAnnual
 
-<Architecture>:
+`<Architecture>`:
 	- x64
 	- X86
 
-<InstallMediaSource>_<UpdateMediaSource>:
+`<InstallMediaSource>`_`<UpdateMediaSource>`:
 	- CDN_CDN (Microsoft Public CDN)
 	- CM_CM (Configuration Manager)
 	- UNC_CDN (Install Internal UNC, Update CDN )
