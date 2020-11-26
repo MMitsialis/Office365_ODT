@@ -1,1 +1,1 @@
-Setup.exe /Download %cd%\Download.Office365.SemiAnnual.x86.xml
+Setup.exe /Download %cd%\Download-Office365-SemiAnnual-x86.xml
