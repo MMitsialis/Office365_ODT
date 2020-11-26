@@ -1,8 +1,8 @@
-Call Update-Replica-SemiAnnual-x64.cmd
-Call Update-Replica-SemiAnnual-x86.cmd
-Call Update-Replica-MonthlyEnterprise-x64.cmd
-Call Update-Replica-MonthlyEnterprise-x86.cmd
-Call Update-Replica-SemiAnnualPreview-x64.cmd
-Call Update-Replica-SemiAnnualPreview-x86.cmd
-Call Update-Replica-Current-x64.cmd
-Call Update-Replica-Current-x86.cmd
+Call Download-SemiAnnual-x64.cmd
+Call Download-SemiAnnual-x86.cmd
+Call Download-MonthlyEnterprise-x64.cmd
+Call Download-MonthlyEnterprise-x86.cmd
+Call Download-SemiAnnualPreview-x64.cmd
+Call Download-SemiAnnualPreview-x86.cmd
+Call Download-Current-x64.cmd
+Call Download-Current-x86.cmd
