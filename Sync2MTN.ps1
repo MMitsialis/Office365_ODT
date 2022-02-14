@@ -2,7 +2,7 @@
 
 Set-Location -Path "C:\Office365_ODT\"
 $WorkDir = Get-Location
-$Days = 21
+$Days = 36
 $ScripRunStart = Get-Date -Format "yyyyMMdd_HHmm"
 Start-Transcript -Path "$WorkDir\Sync2MTN-$ScripRunStart.Transcript"
 
@@ -24,3 +24,6 @@ foreach ($Source in $SourceList) {
 }
 Set-Location $WorkDir
 Stop-Transcript
+
+Write-Host "Replication results in $WorkDir\Sync2MTN-$ScripRunStart.Transcript"
+np "$WorkDir\Sync2MTN-$ScripRunStart.Transcript"
