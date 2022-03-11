@@ -1,6 +1,6 @@
 & net use O: "\\ZA-FE-CMP-01.mtn.com\H$\Software Repository$" /User:mtngroup\adm234093
 
-Set-Location -Path "C:\Office365_ODT\"
+# Set-Location -Path "C:\Office365_ODT\"
 $WorkDir = Get-Location
 $Days = 36
 $ScripRunStart = Get-Date -Format "yyyyMMdd_HHmm"
