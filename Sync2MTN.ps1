@@ -26,4 +26,4 @@ Set-Location $WorkDir
 Stop-Transcript
 
 Write-Host "Replication results in $WorkDir\Sync2MTN-$ScripRunStart.Transcript"
-np "$WorkDir\Sync2MTN-$ScripRunStart.Transcript"
+& notepad "$WorkDir\Sync2MTN-$ScripRunStart.Transcript"
